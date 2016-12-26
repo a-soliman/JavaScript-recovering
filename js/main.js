@@ -36,3 +36,7 @@
 // 	//toFixed(#)
 // var balance = 1563.87; 
 // document.write("Monthly Payment : ", (balance / 12).toFixed(2), "<br />")
+
+// 	//Order of operations
+// document.write("3 + 2 * 5 = ", 3 + 2 * 5, "<br />")
+// document.write("(3 + 2) * 5 = ", (3 + 2) * 5, "<br />")
