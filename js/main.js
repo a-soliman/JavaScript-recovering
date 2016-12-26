@@ -32,3 +32,7 @@
 
 // prescisionTest = 0.1000000000000001;
 // document.write(prescisionTest + 0.1000000000000001, "<br/>")
+
+// 	//toFixed(#)
+// var balance = 1563.87; 
+// document.write("Monthly Payment : ", (balance / 12).toFixed(2), "<br />")
