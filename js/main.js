@@ -23,3 +23,7 @@
 // document.write("5 * 4 = " , 5 * 4, "<br />");
 // document.write("5 / 4 = " , 5 / 4, "<br />");
 // document.write("5 % 4 = " , 5 % 4, "<br />");
+
+// 	//max number that could be stored && min number
+// document.write("Max Num = " , Number.MAX_VALUE, "<br />");
+// document.write("Min Num = " , Number.MIN_VALUE, "<br />");
