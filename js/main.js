@@ -27,3 +27,8 @@
 // 	//max number that could be stored && min number
 // document.write("Max Num = " , Number.MAX_VALUE, "<br />");
 // document.write("Min Num = " , Number.MIN_VALUE, "<br />");
+
+// 	// Prescision (maximum of 16# could be stored in any programming lanuage)
+
+// prescisionTest = 0.1000000000000001;
+// document.write(prescisionTest + 0.1000000000000001, "<br/>")
