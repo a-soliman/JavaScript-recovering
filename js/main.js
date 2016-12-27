@@ -59,3 +59,4 @@
 
 // 	//length
 // document.write("String Length ", randString.length , "<br />")
+ds
