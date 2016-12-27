@@ -59,4 +59,6 @@
 
 // 	//length
 // document.write("String Length ", randString.length , "<br />")
-ds
+
+// 	//indexOf
+// document.write("Index for \"goes\" : ", randString.indexOf("goes") , "<br />")
