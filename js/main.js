@@ -51,3 +51,11 @@
 
 // 	//converting a string into a number 
 // document.write("converting string : ", Number("3.14") + 5, "<br />")
+// =======================================================================
+
+// === STRINGS === 03
+
+// var randString = "A long " + "String that " + "goes on and on";
+
+// 	//length
+// document.write("String Length ", randString.length , "<br />")
