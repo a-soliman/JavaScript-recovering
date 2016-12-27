@@ -43,3 +43,6 @@
 
 // 	//rounding up
 // document.write("Math.ceil (6.65) = ", Math.ceil(6.65), "<br />")
+
+// 	//rounding down
+// document.write("Math.floor (6.65) = ", Math.floor(6.65), "<br />")
