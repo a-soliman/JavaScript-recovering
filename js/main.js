@@ -40,3 +40,6 @@
 // 	//Order of operations
 // document.write("3 + 2 * 5 = ", 3 + 2 * 5, "<br />")
 // document.write("(3 + 2) * 5 = ", (3 + 2) * 5, "<br />")
+
+// 	//rounding up
+// document.write("Math.ceil (6.65) = ", Math.ceil(6.65), "<br />")
