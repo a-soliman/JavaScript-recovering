@@ -49,4 +49,5 @@
 
 // document.write("Math.max (10,5) = ", Math.max (10,5), "<br />")
 
-dssdsd
+// 	//converting a string into a number 
+// document.write("converting string : ", Number("3.14") + 5, "<br />")
