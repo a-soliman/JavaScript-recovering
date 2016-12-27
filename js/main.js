@@ -46,3 +46,5 @@
 
 // 	//rounding down
 // document.write("Math.floor (6.65) = ", Math.floor(6.65), "<br />")
+
+// document.write("Math.max (10,5) = ", Math.max (10,5), "<br />")
