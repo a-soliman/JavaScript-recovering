@@ -71,3 +71,13 @@
 
 // 	// replacing part of a string
 // document.write("replacing : " ,randString.replace("and on", "forever") , "<br />")
+
+// 	// catAt()
+// document.write("charAt(0) || at index 0 : " ,randString.charAt(0) , "<br />")
+
+// 	// split() ==> spliting a string into an ARRAY
+// var randStringArray = randString.split(" ")
+// console.log(randStringArray)
+
+// 	// trim() ==> removes spaces from begining and ending of a string
+// randString = randString.trim()
