@@ -67,3 +67,7 @@
 // document.write("Slice 19 to 23 : " ,randString.slice(19, 23) , "<br />")
 // document.write("Slice from 19 : " ,randString.slice(19) , "<br />")
 // document.write("substr from 19 ==> 4chr : " ,randString.substr(19, 4) , "<br />")
+
+
+// 	// replacing part of a string
+// document.write("replacing : " ,randString.replace("and on", "forever") , "<br />")
