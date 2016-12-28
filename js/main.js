@@ -112,3 +112,7 @@
 // 	 }
 
 //  }
+
+// =====================================================================
+// === Switch statment === 05
+//				{{if you have a limited number of petential options}}
