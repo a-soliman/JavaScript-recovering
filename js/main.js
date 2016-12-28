@@ -81,3 +81,9 @@
 
 // 	// trim() ==> removes spaces from begining and ending of a string
 // randString = randString.trim()
+
+// 	//toUpperCase() && toLowerCase()
+// document.write("toUpperCase : " ,randString.toUpperCase() , "<br />")
+// document.write("toLowerCase : " ,randString.toLowerCase() , "<br />")
+
+// =======================================================================
