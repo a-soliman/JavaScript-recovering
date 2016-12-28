@@ -87,3 +87,10 @@
 // document.write("toLowerCase : " ,randString.toLowerCase() , "<br />")
 
 // =======================================================================
+
+// === Conditionals (IF) === 04
+
+ // relational Operators : === == != > < >= <=
+ // logical Operators && || !
+
+ 	// whereToGo()
