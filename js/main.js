@@ -144,3 +144,13 @@
 	// 	document.write(i + "<br />");
 	// 	i++;
 	// }
+		// ===========================================
+
+	// //==DO-WHILE LOOP===
+	// do{
+	// 	var guess =prompt("What is the number (1-20?")
+	// }while(guess != 15)
+
+	// alert("You guessed 15!")
+
+		// ===========================================
