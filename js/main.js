@@ -116,3 +116,23 @@
 // =====================================================================
 // === Switch statment === 05
 //				{{if you have a limited number of petential options}}
+
+// var age = 5;
+
+// switch(age) {
+// 	case 6 : 
+// 	case 5 :
+// 		document.write("Go to Kindergarden" + "<br />")
+// 		break;
+
+// 	case 7 :
+// 		document.write("Go to Grade" + "<br />")
+// 		break;
+
+// 	default :
+// 		document.write("Subtract 5 from your age" + "<br />")
+// 		break;
+// }
+
+
+// =====================================================================
