@@ -94,3 +94,21 @@
  // logical Operators && || !
 
  	// whereToGo()
+
+ 	// function whereToGo() {
+// 	 var age = prompt("How old are you?");
+
+// 	 if (age >= 5 && age <= 6){
+// 	 	document.write("Go to Kindergarden" + "<br />")
+// 	 } else if(age > 18){
+// 	 	document.write("Go to colage" + "<br />")
+// 	 } else if (age == 0 || age == null) {
+// 	 	whereToGo()
+// 	 } 
+// 	 else if (age -2 <= 1 ) {
+// 	 		document.write("Go Drink some Milk" + "<br />")	
+// 	 } else {
+// 	 	document.write("Go to Grade", age - 5, "<br />")
+// 	 }
+
+//  }
