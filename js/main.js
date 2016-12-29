@@ -209,3 +209,8 @@
 // //reversing a number an array
 // var numbers = [4, 3, 9, 20, 120]
 // document.write("reversing A number : " + numbers.sort(function(y,x){ return x-y}) + "<br />")
+
+// //using .concat()
+
+// var cominedArray = tomSmith.concat(numbers)
+// document.write("cominedArray : " + cominedArray + "<br />")
