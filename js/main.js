@@ -214,3 +214,16 @@
 
 // var cominedArray = tomSmith.concat(numbers)
 // document.write("cominedArray : " + cominedArray + "<br />")
+
+// //using pop() || push() || shift() || unshift()
+// tomSmith.pop();
+// tomSmith.push("555-1212", "US");
+// tomSmith.shift();
+// tomSmith.unshift("Tom Smith")
+
+// for(i = 0; i < tomSmith.length; i++) {
+// 	document.write(tomSmith[i], "<br />")
+// }
+
+
+// =====================================================================
