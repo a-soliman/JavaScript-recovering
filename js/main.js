@@ -225,5 +225,21 @@
 // 	document.write(tomSmith[i], "<br />")
 // }
 
-
 // =====================================================================
+
+// === FUNCTIONS === 08
+
+	// afunction to check if the array contains a specific value
+	// 	function inArray(arrayToCheck, value) {
+	// 		for(i =0; i < arrayToCheck.length; i++) {
+	// 			if(arrayToCheck[i] === value) {
+	// 				return true;
+	// 			}
+	// 		}
+
+	// 		return false;
+	// 	}
+	// 	var randArray = [1,2,3,4,5]
+	// 	document.write("in Array :", inArray(randArray, 4), "<br />")
+
+	// 	// ====================================
