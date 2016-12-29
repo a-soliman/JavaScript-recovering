@@ -201,3 +201,11 @@
 
 // //Reversing an array
 // document.write("reversing alphpiticlly : " + tomSmith.reverse() + "<br />")
+
+// //sorting a number an array
+// var numbers = [4, 3, 9, 20, 120]
+// document.write("sorting A number : " + numbers.sort(function(x,y){ return x-y}) + "<br />")
+
+// //reversing a number an array
+// var numbers = [4, 3, 9, 20, 120]
+// document.write("reversing A number : " + numbers.sort(function(y,x){ return x-y}) + "<br />")
