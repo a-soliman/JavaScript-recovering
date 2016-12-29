@@ -181,3 +181,6 @@
 // document.write("1ST index: " + tomSmith[0] + "<br />")
 
 // tomSmith[3] ="t.smoth@mail.com";
+
+// //splice() to add to the array 
+// tomSmith.splice(2, 1, "Pittsburg", "PA")
