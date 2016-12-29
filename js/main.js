@@ -184,3 +184,7 @@
 
 // //splice() to add to the array 
 // tomSmith.splice(2, 1, "Pittsburg", "PA")
+
+// tomSmith.splice(4, 1);
+
+// document.write("Array toString(): " + tomSmith.toString() + "<br />")
