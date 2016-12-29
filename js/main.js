@@ -188,3 +188,10 @@
 // tomSmith.splice(4, 1);
 
 // document.write("Array toString(): " + tomSmith.toString() + "<br />")
+
+// //join() to convert an array into string ((you can specify a comme of a space between))
+
+// document.write("Array (join): " + tomSmith.join(", ") + "<br />")
+
+// //delete()
+// delete tomSmith[3];
