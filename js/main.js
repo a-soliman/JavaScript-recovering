@@ -195,3 +195,9 @@
 
 // //delete()
 // delete tomSmith[3];
+
+// //sorting an array
+// document.write("sorting alphpiticlly : " + tomSmith.sort() + "<br />")
+
+// //Reversing an array
+// document.write("reversing alphpiticlly : " + tomSmith.reverse() + "<br />")
