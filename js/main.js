@@ -242,4 +242,15 @@
 	// 	var randArray = [1,2,3,4,5]
 	// 	document.write("in Array :", inArray(randArray, 4), "<br />")
 
-	// 	// ====================================dd
+	// 	// ====================================
+
+	// // afunction to multyply by 2
+
+	// 	function times2(num) {
+	// 		var var2 = 2;
+
+	// 		return num * var2;
+	// 	}
+	// 	document.write(" 10 times 2 : " + times2(10) + "<br />")
+
+	// // ====================================
