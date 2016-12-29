@@ -254,3 +254,14 @@
 	// 	document.write(" 10 times 2 : " + times2(10) + "<br />")
 
 	// // ====================================
+	
+	// // afunction to multyply by 3
+
+	// 	function times3(num) {
+	// 		var var3 = 3;
+
+	// 		return num * var3;
+	// 	}
+	// 	document.write(" 10 times 3 : " + times2(10) + "<br />")
+
+	// // ====================================
