@@ -174,3 +174,10 @@
 	// }
 
 // =====================================================================
+// === ARRAYS === 07
+
+// var tomSmith = ["Tom Smith", "123 Main", 120.50];
+
+// document.write("1ST index: " + tomSmith[0] + "<br />")
+
+// tomSmith[3] ="t.smoth@mail.com";
