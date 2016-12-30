@@ -254,7 +254,7 @@
 	// 	document.write(" 10 times 2 : " + times2(10) + "<br />")
 
 	// // ====================================
-	
+
 	// // afunction to multyply by 3
 
 	// 	function times3(num) {
@@ -263,5 +263,14 @@
 	// 		return num * var3;
 	// 	}
 	// 	document.write(" 10 times 3 : " + times2(10) + "<br />")
+
+	// // ====================================
+	
+	// // a function as a parameter for other function
+
+	// 	function multiply(func, num) {
+	// 		return func(num);
+	// 	}
+	// 	document.write(" multiply : " + multiply(times2, 12) + "<br />")
 
 	// // ====================================
