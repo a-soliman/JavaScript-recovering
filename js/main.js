@@ -342,3 +342,8 @@
 // 	document.getElementById('charInput').onfocus =function(event) {
 // 		document.getElementById('keyData').innerHTML = "input gaied focus";
 // 	}
+
+// 	// onselect
+// 	document.getElementById('charInput').onselect =function(event) {
+// 		document.getElementById('keyData').innerHTML = "selecting text";
+// 	}
