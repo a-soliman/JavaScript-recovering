@@ -327,3 +327,12 @@
 // 		return null;
 // 	}
 // }
+
+// 	// === onkeypress == 
+// 	document.getElementById('charInput').onkeypress = function(event) {
+// 		var char = getChar = getChar(event || window.event)
+// 		if(!char) return false;
+
+// 		document.getElementById('keyData').innerHTML = char + " was clicked";
+// 		return true;
+// 	}
