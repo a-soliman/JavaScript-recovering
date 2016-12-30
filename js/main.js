@@ -347,3 +347,11 @@
 // 	document.getElementById('charInput').onselect =function(event) {
 // 		document.getElementById('keyData').innerHTML = "selecting text";
 // 	}
+
+// 	// onclick
+// 	document.getElementById('logoButton').onclick =function(event) {
+// 		document.getElementById('logo').className = "show";
+// 	}
+// 	document.getElementById('logo').onclick =function(event) {
+// 		document.getElementById('logo').className = "hidden";
+// 	}
