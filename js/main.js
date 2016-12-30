@@ -274,7 +274,7 @@
 	// 	document.write(" multiply : " + multiply(times2, 12) + "<br />")
 
 	// // ====================================
-	
+
 	// // a function to count the sum
 
 	// 	function getSum() {
@@ -289,3 +289,16 @@
 	// 	document.write("SUM = " + getSum(1,2,10,4,5,6), "<br />")
 
 	// 	// ====================================
+		// 	// Recall-self functions
+
+	// 	function factorial(num) {
+	// 		if (num <= 1) {
+	// 			return 1;
+	// 		} else {
+	// 			return num * factorial(num-1); 
+	// 		}
+	// 	}
+
+	// 	document.write("Factorial of 4 = " + factorial(4) + "<br />")
+
+	// =====================================================================
