@@ -336,3 +336,9 @@
 // 		document.getElementById('keyData').innerHTML = char + " was clicked";
 // 		return true;
 // 	}
+
+// 	//onfocus
+// 	// somthing happens on focus
+// 	document.getElementById('charInput').onfocus =function(event) {
+// 		document.getElementById('keyData').innerHTML = "input gaied focus";
+// 	}
