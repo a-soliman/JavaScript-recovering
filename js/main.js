@@ -302,3 +302,15 @@
 	// 	document.write("Factorial of 4 = " + factorial(4) + "<br />")
 
 	// =====================================================================
+
+	// === Event Handlinng === 09
+	//== onclick, 
+	//== onmouseover, 
+	//== onmoseout, 
+	//== onmousrdown, 
+	//== onmouseup,
+	//== ondblclick
+	//== onchange
+// function openAlert(mess) {
+// 	alert(mess);
+// }
