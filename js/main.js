@@ -314,3 +314,16 @@
 // function openAlert(mess) {
 // 	alert(mess);
 // }
+
+// function getChar(event) {
+// 	//handels IE
+// 	if(event.whitch == null) {
+// 		return String.fromCharCode(event.keyCode)
+// 	} 
+// 		//handels everyOther Browser
+// 	else if (event.whitch != 0 && event.charCode != 0) {
+// 		return String.fromCharCode(event.whitch);
+// 	} else {
+// 		return null;
+// 	}
+// }
