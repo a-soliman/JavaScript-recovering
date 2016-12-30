@@ -265,7 +265,7 @@
 	// 	document.write(" 10 times 3 : " + times2(10) + "<br />")
 
 	// // ====================================
-	
+
 	// // a function as a parameter for other function
 
 	// 	function multiply(func, num) {
@@ -274,3 +274,18 @@
 	// 	document.write(" multiply : " + multiply(times2, 12) + "<br />")
 
 	// // ====================================
+	
+	// // a function to count the sum
+
+	// 	function getSum() {
+	// 		var sum = 0
+	// 		for(i = 0; i < arguments.length; i++) {
+
+	// 			sum += arguments[i];
+	// 		}
+	// 		return sum;
+	// 	}
+		
+	// 	document.write("SUM = " + getSum(1,2,10,4,5,6), "<br />")
+
+	// 	// ====================================
