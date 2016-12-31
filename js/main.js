@@ -397,3 +397,11 @@
 
 
 // =====================================================================
+
+
+// === STYLING === 10
+
+// document.getElementById('chgBkColor').onclick = function(event) {
+// 	document.getElementById('sampDiv').style.backgroundColor = "#EFDECD";
+
+// }
