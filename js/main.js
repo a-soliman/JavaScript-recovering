@@ -415,3 +415,8 @@
 // 	document.getElementById('sampDiv').style.borderStyle = "solid"
 
 // }
+
+// document.getElementById('chgBorderWidth').onclick = function(event) {
+// 	document.getElementById('sampDiv').style.borderWidth = "thick"
+
+// }
