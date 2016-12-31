@@ -382,3 +382,18 @@
 // 		document.getElementById('mouseX').value = pageX;
 // 		document.getElementById('mouseY').value = pageY;
 // 	}
+
+// 	//== CLEARING ALL THE INPUTS
+// 	document.getElementById('clearInputs').onclick = function(event) {
+	
+// 	var inputElements = document.getElementsByTagName('input');
+
+// 	for(var i = 0; i <inputElements.length; i++) {
+// 		if (inputElements[i].type == "text") {
+// 			inputElements[i].value = "";
+// 		}
+// 	}
+// 	}
+
+
+// =====================================================================
