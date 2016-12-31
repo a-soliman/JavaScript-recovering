@@ -405,3 +405,8 @@
 // 	document.getElementById('sampDiv').style.backgroundColor = "#EFDECD";
 
 // }
+
+// document.getElementById('chgBkImg').onclick = function(event) {
+// 	document.getElementById('sampDiv').style.backgroundImage = "url('bla-bla.png')";
+	
+// }
