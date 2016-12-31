@@ -355,3 +355,13 @@
 // 	document.getElementById('logo').onclick =function(event) {
 // 		document.getElementById('logo').className = "hidden";
 // 	}
+// 	// onclick
+// 	document.getElementById('logo').onmouseover =function(event) {
+// 		document.getElementById('logo').src = "ntt-logo-horz.png";
+// 		document.getElementById('mouseInput').value = "Mouse over image";
+// 	}
+
+// 	document.getElementById('logo').onmouseout =function(event) {
+// 		document.getElementById('logo').src = "ntt-logo.png";
+// 		document.getElementById('mouseInput').value = "Mouse left";
+// 	}
