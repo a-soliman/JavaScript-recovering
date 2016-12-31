@@ -410,3 +410,8 @@
 // 	document.getElementById('sampDiv').style.backgroundImage = "url('bla-bla.png')";
 	
 // }
+
+// document.getElementById('chgBorderStyle').onclck = function(event) {
+// 	document.getElementById('sampDiv').style.borderStyle = "solid"
+
+// }
