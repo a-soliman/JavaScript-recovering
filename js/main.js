@@ -365,3 +365,20 @@
 // 		document.getElementById('logo').src = "ntt-logo.png";
 // 		document.getElementById('mouseInput').value = "Mouse left";
 // 	}
+
+// 	// == identifing the mouse position through knowing its X, and Y valuses
+// 	document.body.onmousemove = function(e) {
+// 		e = e || window.event;
+
+// 		var pageX = e.pageX;
+// 		var pageY = e.pageY;
+
+// 		if(pageX === undefined) {
+// 			pageX = e.clientX + document.body.scrollLeft + document.documentElement.scrollLeft;
+
+// 			pageY = e.clientX + document.body.scrollTop + document.documentElement.scrollTop;
+// 		}
+
+// 		document.getElementById('mouseX').value = pageX;
+// 		document.getElementById('mouseY').value = pageY;
+// 	}
