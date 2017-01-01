@@ -453,3 +453,8 @@ document.getElementById('forwardPage').onclick = function(event) {
 document.getElementById('backPage').onclick = function(event) {
 	history.back();
 }
+
+	// reload
+document.getElementById('reload').onclick = function(event) {
+	window.location.reload(true);
+}
