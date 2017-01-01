@@ -431,3 +431,6 @@
 // === Manubulationg the DOM === 11
 	// finding the current((location))
 document.write('Current URL : ', window.location.href, "<br />")
+
+	//getting the host name
+document.write('Current HOST : ', window.location.hostname, "<br />")
