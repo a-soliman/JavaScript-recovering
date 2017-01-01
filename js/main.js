@@ -437,3 +437,9 @@ document.write('Current HOST : ', window.location.hostname, "<br />")
 
 	// getting the path
 document.write('Current Path : ', window.location.pathname, "<br />")
+
+	// change the site on a button click
+document.getElementById('goToGoogle').onclick = function(event) {
+	window.location.href = "http://google.com"
+
+}
