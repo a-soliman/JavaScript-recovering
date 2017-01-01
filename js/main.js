@@ -458,3 +458,9 @@ document.getElementById('backPage').onclick = function(event) {
 document.getElementById('reload').onclick = function(event) {
 	window.location.reload(true);
 }
+
+//====================STYLING DOM ELEMNTS===========================
+						// 12
+	// targetting all the p elements and storing them in an ARRAY
+var pElements = document.getElementsByTagName('p'); 
+pElements[1].style.backgroundColor = 'lightblue';
