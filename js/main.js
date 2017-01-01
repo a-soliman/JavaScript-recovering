@@ -434,3 +434,6 @@ document.write('Current URL : ', window.location.href, "<br />")
 
 	//getting the host name
 document.write('Current HOST : ', window.location.hostname, "<br />")
+
+	// getting the path
+document.write('Current Path : ', window.location.pathname, "<br />")
