@@ -420,3 +420,10 @@
 // 	document.getElementById('sampDiv').style.borderWidth = "thick"
 
 // }
+
+// document.getElementById('chgBorderColor').onclick = function(event) {
+// 	document.getElementById('sampDiv').style.borderColor = "blue"
+
+// }
+
+// =====================================================================
