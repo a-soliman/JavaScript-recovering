@@ -448,3 +448,8 @@ document.getElementById('goToGoogle').onclick = function(event) {
 document.getElementById('forwardPage').onclick = function(event) {
 	history.forward();
 }
+
+	// back
+document.getElementById('backPage').onclick = function(event) {
+	history.back();
+}
