@@ -443,3 +443,8 @@ document.getElementById('goToGoogle').onclick = function(event) {
 	window.location.href = "http://google.com"
 
 }
+
+	// forward
+document.getElementById('forwardPage').onclick = function(event) {
+	history.forward();
+}
