@@ -467,3 +467,9 @@ pElements[1].style.backgroundColor = 'lightblue';
 
 	//targetting the childNodes of the document
 document.childNodes[1].style.backgroundColor = "yellow"
+
+	// more with childNodes 
+var sampDiv2 = document.getElementById('sampDiv2');
+sampDiv2.childNodes[0].style.backgroundColor = 'blue'
+
+sampDiv2.childNodes[0].childNodes[1].style.backgroundColor = "orange";
