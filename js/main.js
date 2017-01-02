@@ -16,6 +16,7 @@
 
 // }
 // =======================================================================
+
 // === Math === 02
 
 // document.write("5 + 4 = " , 5 + 4, "<br />");
@@ -43,14 +44,17 @@
 
 // 	//rounding up
 // document.write("Math.ceil (6.65) = ", Math.ceil(6.65), "<br />")
-
 // 	//rounding down
 // document.write("Math.floor (6.65) = ", Math.floor(6.65), "<br />")
 
 // document.write("Math.max (10,5) = ", Math.max (10,5), "<br />")
 
+// 	//Random Number generationg
+// document.write("Random # (1-10) = ", Math.floor(Math.random() * 10), "<br />")
+
 // 	//converting a string into a number 
 // document.write("converting string : ", Number("3.14") + 5, "<br />")
+
 // =======================================================================
 
 // === STRINGS === 03
@@ -67,7 +71,6 @@
 // document.write("Slice 19 to 23 : " ,randString.slice(19, 23) , "<br />")
 // document.write("Slice from 19 : " ,randString.slice(19) , "<br />")
 // document.write("substr from 19 ==> 4chr : " ,randString.substr(19, 4) , "<br />")
-
 
 // 	// replacing part of a string
 // document.write("replacing : " ,randString.replace("and on", "forever") , "<br />")
@@ -87,7 +90,6 @@
 // document.write("toLowerCase : " ,randString.toLowerCase() , "<br />")
 
 // =======================================================================
-
 // === Conditionals (IF) === 04
 
  // relational Operators : === == != > < >= <=
@@ -95,7 +97,7 @@
 
  	// whereToGo()
 
- 	// function whereToGo() {
+// function whereToGo() {
 // 	 var age = prompt("How old are you?");
 
 // 	 if (age >= 5 && age <= 6){
@@ -136,7 +138,6 @@
 
 
 // =====================================================================
-
 // === LOOPING === 06
 	//==WHILE LOOP==
 	// var i = 0;
@@ -166,7 +167,6 @@
 	// 	document.write(j + "<br />")
 	// }
 	// // ===========================================
-		// // ===========================================
 	// var customer = {name: "Bob", address: "123 Main", balance: 50.50};
 
 	// for(k in customer) {
@@ -174,6 +174,7 @@
 	// }
 
 // =====================================================================
+
 // === ARRAYS === 07
 
 // var tomSmith = ["Tom Smith", "123 Main", 120.50];
@@ -224,6 +225,7 @@
 // for(i = 0; i < tomSmith.length; i++) {
 // 	document.write(tomSmith[i], "<br />")
 // }
+
 
 // =====================================================================
 
@@ -289,7 +291,8 @@
 	// 	document.write("SUM = " + getSum(1,2,10,4,5,6), "<br />")
 
 	// 	// ====================================
-		// 	// Recall-self functions
+
+	// 	// Recall-self functions
 
 	// 	function factorial(num) {
 	// 		if (num <= 1) {
@@ -303,7 +306,7 @@
 
 	// =====================================================================
 
-	// === Event Handlinng === 09
+// === Event Handlinng === 09
 	//== onclick, 
 	//== onmouseover, 
 	//== onmoseout, 
@@ -327,7 +330,6 @@
 // 		return null;
 // 	}
 // }
-
 // 	// === onkeypress == 
 // 	document.getElementById('charInput').onkeypress = function(event) {
 // 		var char = getChar = getChar(event || window.event)
@@ -355,6 +357,7 @@
 // 	document.getElementById('logo').onclick =function(event) {
 // 		document.getElementById('logo').className = "hidden";
 // 	}
+
 // 	// onclick
 // 	document.getElementById('logo').onmouseover =function(event) {
 // 		document.getElementById('logo').src = "ntt-logo-horz.png";
@@ -397,7 +400,6 @@
 
 
 // =====================================================================
-
 
 // === STYLING === 10
 
@@ -464,7 +466,7 @@ document.getElementById('reload').onclick = function(event) {
 	// targetting all the p elements and storing them in an ARRAY
 var pElements = document.getElementsByTagName('p'); 
 pElements[1].style.backgroundColor = 'lightblue';
-
+	
 	//targetting the childNodes of the document
 document.childNodes[1].style.backgroundColor = "yellow"
 
@@ -483,8 +485,10 @@ nttLogo2.setAttribute("alt", "Ntt Logo2")
 
 document.write("Logo has alt : ", nttLogo2.getAttribute("alt"), "<br />")
 
+
 var attibList = document.getElementById('logo2').attributes;
 
 for(var i = 0; i < attibList.length; i++) {
 	document.write("Attribute ", i, " : ", attibList[i].nodeName, " : ", attibList[i].nodeValue, "<br />")
 }
+
