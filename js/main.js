@@ -476,3 +476,9 @@ sampDiv2.childNodes[0].childNodes[1].style.backgroundColor = "orange";
 
 	// Working with ATTRIBUTES
 var nttLogo2 = document.getElementById('logo2')
+
+document.write("Logo has alt : ", nttLogo2.hasAttribute("alt"), "<br />")
+
+nttLogo2.setAttribute("alt", "Ntt Logo2")
+
+document.write("Logo has alt : ", nttLogo2.getAttribute("alt"), "<br />")
