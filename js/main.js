@@ -482,3 +482,9 @@ document.write("Logo has alt : ", nttLogo2.hasAttribute("alt"), "<br />")
 nttLogo2.setAttribute("alt", "Ntt Logo2")
 
 document.write("Logo has alt : ", nttLogo2.getAttribute("alt"), "<br />")
+
+var attibList = document.getElementById('logo2').attributes;
+
+for(var i = 0; i < attibList.length; i++) {
+	document.write("Attribute ", i, " : ", attibList[i].nodeName, " : ", attibList[i].nodeValue, "<br />")
+}
