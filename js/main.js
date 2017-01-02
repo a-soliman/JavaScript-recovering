@@ -464,3 +464,6 @@ document.getElementById('reload').onclick = function(event) {
 	// targetting all the p elements and storing them in an ARRAY
 var pElements = document.getElementsByTagName('p'); 
 pElements[1].style.backgroundColor = 'lightblue';
+
+	//targetting the childNodes of the document
+document.childNodes[1].style.backgroundColor = "yellow"
