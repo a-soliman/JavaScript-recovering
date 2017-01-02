@@ -473,3 +473,6 @@ var sampDiv2 = document.getElementById('sampDiv2');
 sampDiv2.childNodes[0].style.backgroundColor = 'blue'
 
 sampDiv2.childNodes[0].childNodes[1].style.backgroundColor = "orange";
+
+	// Working with ATTRIBUTES
+var nttLogo2 = document.getElementById('logo2')
