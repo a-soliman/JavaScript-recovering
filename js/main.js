@@ -492,3 +492,11 @@ for(var i = 0; i < attibList.length; i++) {
 	document.write("Attribute ", i, " : ", attibList[i].nodeName, " : ", attibList[i].nodeValue, "<br />")
 }
 
+	// adding an element
+
+var paragraph3 = document.createElement('p');
+paragraph3.setAttribute("id", "paragraph3")
+paragraph3.innerHTML = "I created This paragraph using JavaScript";
+
+sampDiv2.appendChild(paragraph3)
+
