@@ -560,3 +560,27 @@
 // cust1.addToBal(10.00);
 
 // document.write(getInfo(cust1), "<br />")
+
+// //=========================================================
+// 	// Genaric OBJECTS
+
+// function Customer(name, street, city, state, email, balance) {
+// 	this.name = name
+// 	this.street = street
+// 	this.city = city
+// 	this.state = state
+// 	this.email = email
+// 	this.balance = balance
+// 	this.payDownBal = function(amtPaid) {
+// 		this.balance -= amtPaid;
+// 	}
+// 	this.addToBal = function(amtCharged) {
+// 		this.balance += amtCharged
+// 	}
+// }
+
+// 	// creating customized object based on the genric object
+
+// var cust2 = new Customer("Sally Smith", "214 Phillips", "San Francisco", "CA", "sally@gmail.com", 0.00);
+
+// cust2.addToBal(15.40)
