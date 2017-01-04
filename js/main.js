@@ -527,3 +527,17 @@
 
 // cust1.street = "215 Main";
 // document.write("Customer street : ", cust1.street, "<br />")
+
+// 	//adding prop
+// cust1.country = "US";
+// document.write("Customer country : ", cust1.country, "<be />")
+
+// 	//deleting prop
+// delete cust1.country;
+
+// 	//looping throught the props
+// for(var prop in cust1) {
+// 	if(cust1.hasOwnProperty(prop)) {
+// 		document.write(prop,"<br />")
+// 	}
+// }
