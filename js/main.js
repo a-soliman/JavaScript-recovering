@@ -519,3 +519,6 @@
 // 		this.balance += amtCharged;
 // 	}
 // };
+
+// 	//accessing prop
+// document.write("Customer Name : ",cust1.name, "<br />")
