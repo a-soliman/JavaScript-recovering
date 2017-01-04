@@ -584,3 +584,17 @@
 // var cust2 = new Customer("Sally Smith", "214 Phillips", "San Francisco", "CA", "sally@gmail.com", 0.00);
 
 // cust2.addToBal(15.40)
+
+// 	// static Variables {{value that wll be added to all the customized object ((regardLESS))}} 
+
+// Customer.prototype.isCreditAvail = true;
+
+// Customer.prototype.toString = function() {
+// 	return this.name + " lives at " + this.street + " in " + this.city +
+// 	" " + this.state + " EMAIL : " + this.email + " and he has a balance of $" +
+// 	this.balance.toFixed(2) + " Credit worthy " + this.isCreditAvail +"."
+// }	
+
+// document.write(cust2.toString(), "<br />")
+
+//==============================================================================
