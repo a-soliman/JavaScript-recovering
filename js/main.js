@@ -522,3 +522,8 @@
 
 // 	//accessing prop
 // document.write("Customer Name : ",cust1.name, "<br />")
+
+// 	//changing prop
+
+// cust1.street = "215 Main";
+// document.write("Customer street : ", cust1.street, "<br />")
