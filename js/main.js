@@ -544,3 +544,19 @@
 
 // check if a prop is existing within an object
 // document.write("name in cust1 : ", "name" in cust1, "<br />")
+
+// 	i//interusct with an object using a function
+// functon getInfo(cust) {
+// 	return cust1.name + " lives at " + cust1.street + " in " + cust1.city +
+// 	" " + cust1.state + " EMAIL : " + cust1.email + " and he has a balance of $" +
+// 	cust1.balance + "."
+// }
+
+// document.write(getInfo(cust1), "<br />")
+
+// 	// call methods
+// cust1.payDownBal(20.50);
+
+// cust1.addToBal(10.00);
+
+// document.write(getInfo(cust1), "<br />")
