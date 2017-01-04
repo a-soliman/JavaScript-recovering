@@ -432,71 +432,90 @@
 
 // === Manubulationg the DOM === 11
 	// finding the current((location))
-document.write('Current URL : ', window.location.href, "<br />")
+// document.write('Current URL : ', window.location.href, "<br />")
 
-	//getting the host name
-document.write('Current HOST : ', window.location.hostname, "<br />")
+// 	//getting the host name
+// document.write('Current HOST : ', window.location.hostname, "<br />")
 
-	// getting the path
-document.write('Current Path : ', window.location.pathname, "<br />")
+// 	// getting the path
+// document.write('Current Path : ', window.location.pathname, "<br />")
 
-	// change the site on a button click
-document.getElementById('goToGoogle').onclick = function(event) {
-	window.location.href = "http://google.com"
+// 	// change the site on a button click
+// document.getElementById('goToGoogle').onclick = function(event) {
+// 	window.location.href = "http://google.com"
 
-}
+// }
 
-	// forward
-document.getElementById('forwardPage').onclick = function(event) {
-	history.forward();
-}
+// 	// forward
+// document.getElementById('forwardPage').onclick = function(event) {
+// 	history.forward();
+// }
 
-	// back
-document.getElementById('backPage').onclick = function(event) {
-	history.back();
-}
+// 	// back
+// document.getElementById('backPage').onclick = function(event) {
+// 	history.back();
+// }
 
-	// reload
-document.getElementById('reload').onclick = function(event) {
-	window.location.reload(true);
-}
+// 	// reload
+// document.getElementById('reload').onclick = function(event) {
+// 	window.location.reload(true);
+// }
 
 //====================STYLING DOM ELEMNTS===========================
 						// 12
 	// targetting all the p elements and storing them in an ARRAY
-var pElements = document.getElementsByTagName('p'); 
-pElements[1].style.backgroundColor = 'lightblue';
+// var pElements = document.getElementsByTagName('p'); 
+// pElements[1].style.backgroundColor = 'lightblue';
 	
-	//targetting the childNodes of the document
-document.childNodes[1].style.backgroundColor = "yellow"
+// 	//targetting the childNodes of the document
+// document.childNodes[1].style.backgroundColor = "yellow"
 
-	// more with childNodes 
-var sampDiv2 = document.getElementById('sampDiv2');
-sampDiv2.childNodes[0].style.backgroundColor = 'blue'
+// 	// more with childNodes 
+// var sampDiv2 = document.getElementById('sampDiv2');
+// sampDiv2.childNodes[0].style.backgroundColor = 'blue'
 
-sampDiv2.childNodes[0].childNodes[1].style.backgroundColor = "orange";
+// sampDiv2.childNodes[0].childNodes[1].style.backgroundColor = "orange";
 
-	// Working with ATTRIBUTES
-var nttLogo2 = document.getElementById('logo2')
+// 	// Working with ATTRIBUTES
+// var nttLogo2 = document.getElementById('logo2')
 
-document.write("Logo has alt : ", nttLogo2.hasAttribute("alt"), "<br />")
+// document.write("Logo has alt : ", nttLogo2.hasAttribute("alt"), "<br />")
 
-nttLogo2.setAttribute("alt", "Ntt Logo2")
+// nttLogo2.setAttribute("alt", "Ntt Logo2")
 
-document.write("Logo has alt : ", nttLogo2.getAttribute("alt"), "<br />")
+// document.write("Logo has alt : ", nttLogo2.getAttribute("alt"), "<br />")
 
 
-var attibList = document.getElementById('logo2').attributes;
+// var attibList = document.getElementById('logo2').attributes;
 
-for(var i = 0; i < attibList.length; i++) {
-	document.write("Attribute ", i, " : ", attibList[i].nodeName, " : ", attibList[i].nodeValue, "<br />")
-}
+// for(var i = 0; i < attibList.length; i++) {
+// 	document.write("Attribute ", i, " : ", attibList[i].nodeName, " : ", attibList[i].nodeValue, "<br />")
+// }
 
-	// adding an element
+// 	// adding an element
 
-var paragraph3 = document.createElement('p');
-paragraph3.setAttribute("id", "paragraph3")
-paragraph3.innerHTML = "I created This paragraph using JavaScript";
+// var paragraph3 = document.createElement('p');
+// paragraph3.setAttribute("id", "paragraph3")
+// paragraph3.innerHTML = "I created This paragraph using JavaScript";
 
-sampDiv2.appendChild(paragraph3)
+// sampDiv2.appendChild(paragraph3)
 
+
+//======================================================================
+
+	// Object Orianted JavaScript
+
+// var cust1  = {
+// 	name: "John Smith",
+// 	street: "123 Main",
+// 	city: "San Francisco",
+// 	state: "CA",
+// 	email: "jsmith@mail.com",
+// 	balance: 120.50,
+// 	payDownBal: function(amtPaid) {
+// 		this.balance -= amtPaid;
+// 	},
+// 	addToBal: function(amtCharged) {
+// 		this.balance += amtCharged;
+// 	}
+// };
