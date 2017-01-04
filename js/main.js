@@ -598,3 +598,28 @@
 // document.write(cust2.toString(), "<br />")
 
 //==============================================================================
+
+//==============================================================================
+	//=== FORM VALIDATION ===
+
+// function editNodeText(regex, input, helpId, helpMessage) {
+// 	if(!regex.test(input)) {
+// 		if(helpId != null)
+// 			while(helpId.childNodes[0]) {
+// 				helpId.removeChild(helpId.childNodes[0])
+// 			}
+// 			helpId.appendChild(document.createTextNode(helpMessage))
+// 	} else {
+// 		if(helpId != null) {
+// 			while(helpId.childNodes[0]) {
+// 				helpId.removeChild(helpId.childNodes[0])
+// 			}
+// 		}
+// 	}
+// }
+
+// function isFiledEmpty(inputField, helpId) {
+// 	return editNodeText(/^([A-Za-z]{2,40}[ éàë]{0,40})$/, inputField.value, helpId, "Please enter a valid name")
+// }
+
+//==============================================================================
