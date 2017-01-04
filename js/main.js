@@ -541,3 +541,6 @@
 // 		document.write(prop,"<br />")
 // 	}
 // }
+
+// check if a prop is existing within an object
+// document.write("name in cust1 : ", "name" in cust1, "<br />")
