@@ -519,7 +519,7 @@
 // 		this.balance += amtCharged;
 // 	}
 // };
-
+	
 // 	//accessing prop
 // document.write("Customer Name : ",cust1.name, "<br />")
 
@@ -542,8 +542,9 @@
 // 	}
 // }
 
-// check if a prop is existing within an object
+// 	// check if a prop is existing within an object
 // document.write("name in cust1 : ", "name" in cust1, "<br />")
+
 
 // 	i//interusct with an object using a function
 // functon getInfo(cust) {
@@ -585,6 +586,7 @@
 
 // cust2.addToBal(15.40)
 
+
 // 	// static Variables {{value that wll be added to all the customized object ((regardLESS))}} 
 
 // Customer.prototype.isCreditAvail = true;
@@ -596,8 +598,6 @@
 // }	
 
 // document.write(cust2.toString(), "<br />")
-
-//==============================================================================
 
 //==============================================================================
 	//=== FORM VALIDATION ===
@@ -623,3 +623,5 @@
 // }
 
 //==============================================================================
+	//=== Exption Handling ===
+
